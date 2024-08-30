@@ -1,0 +1,51 @@
+.about{
+  display: flex;
+  align-items: center ;
+  justify-content: space-around;
+}
+
+.right img{
+  width: 450px; 
+  object-fit: cover;
+  height: 500px;
+}
+
+.right{
+  position: relative;
+  float: right;
+  width: 55%; 
+  height: 480px;
+}
+
+.rightContent{
+  position: absolute;
+  top: 85%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-color: #f0efe3;
+  opacity: 0.65; 
+}
+
+.rightContent p{
+  z-index: 99;
+  color: black;
+  font-style: italic;
+}
+
+.rightContent h2{
+  color:blue;
+}
+
+.left{
+  justify-content: space-around;
+  text-align: left;
+  float: left;
+  width: 90%; 
+  margin-right: 80px;
+}
+
+.left p{
+  word-wrap: break-word;
+  width: 450px;
+}
